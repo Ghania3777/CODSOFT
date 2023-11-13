@@ -2,48 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Ghania's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="calculator">
-            <form>
-                <div class="display">
-                <input type="text" name="display">
-                </div>
-                <div>
-                    <input type="button" value="AC" onclick="display.value = ''">
-                    <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)">
-                    <input type="button" value="/" onclick="display.value += '/'">
-                    <input type="button" value="." onclick="display.value += '.'">
-                </div>
-                <div>
-                    <input type="button" value="7" onclick="display.value += '7'">
-                    <input type="button" value="8" onclick="display.value += '8'">
-                    <input type="button" value="9" onclick="display.value += '9'">
-                    <input type="button" value="*" onclick="display.value += '*'">
-                </div>
-                <div>
-                    <input type="button" value="4" onclick="display.value += '4'">
-                    <input type="button" value="5" onclick="display.value += '5'">
-                    <input type="button" value="6" onclick="display.value += '6'">
-                    <input type="button" value="-" onclick="display.value += '-'">
-                </div>
-                <div>
-                    <input type="button" value="1" onclick="display.value += '1'">
-                    <input type="button" value="2" onclick="display.value += '2'">
-                    <input type="button" value="3" onclick="display.value += '3'">
-                    <input type="button" value="+" onclick="display.value += '+'">
-                </div>
-                <div>
-                    <input type="button" value="00" onclick="display.value += '00'">
-                    <input type="button" value="0" onclick="display.value += '0'">
-                    <input type="button" value="=" onclick="display.value = eval(display.value)" class="equal">
-                </div>
-            </form>
-        </div>
-    </div>
+    <header>
+        <h1>Ghania Khawaja</h1>
+        <p>I am a Front-end Developer. I love to stir my own pasta and a spicy desi food lover</p>
+    </header>
+
+    <section id="about">
+        <h2>About</h2>
+        <img src="C:\Users\Global Computers\Desktop\portfolio\IMG_20230806_132519_766.jpg" alt="Ghania Khawaja">
+        <p>A passionate Front-end Developer with experience of making beautiful and user-friendly Websites</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>jAVASCRIPT</li>
+            <li>jAVA</li>
+            <LI>CSS</LI>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <li>Calculator</li>
+        <li>To-do List App</li>
+        <li>Portfolio</li>
+        <li>Robotic Car using Arduino Uno and with Software Application</li>
+        <li>A simple Security Alarm</li>
+        <li>Snake and ladder basic game in Java</li>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="C:\Users\Global Computers\Desktop\portfolio\CV (1).pdf" download>Download Resume</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: khawajaghania**@email.com</p>
+        <p>Phone: 0313 - 4*******</p>
+    </section>
 </body>
 </html>
